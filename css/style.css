@@ -142,6 +142,9 @@ main .display {
   main .box .information {
     line-height: 24px;
   }
+  main .box .title {
+    font-size: 28px;
+  }
   main .first {
     padding: 32px 32px 39px 32px;
   }
@@ -167,5 +170,14 @@ main .display {
   }
   main .first .submit {
     font-size: 15px;
+  }
+  main .second {
+    padding: 35px 40px 21px 32px;
+  }
+  main .second .rate {
+    margin: 8px 0;
+  }
+  main .second .title {
+    margin-bottom: 7px;
   }
 }/*# sourceMappingURL=style.css.map */

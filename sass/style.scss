@@ -149,6 +149,9 @@ main {
             .information{
                 line-height: 24px;
             }
+			.title{
+                font-size: 28px;
+            }
         }
         .first{
             padding: 32px 32px 39px 32px;
@@ -176,5 +179,14 @@ main {
                 font-size: 15px;
             }
         }
+		.second{
+			padding: 35px 40px 21px 32px;
+			.rate{
+				margin: 8px 0;
+			}
+			.title{
+				margin-bottom: 7px;
+			}
+		}
     }
 }
