@@ -7,45 +7,61 @@ const btn5 = document.querySelector('.btn5')
 const first = document.querySelector('.first')
 const second = document.querySelector('.second')
 
-let number = document.getElementById('number').textContent
 
 function display() {
 	first.classList.toggle('display')
 	second.classList.toggle('display')
 }
 
-function btnfirst() {
+
+function btnFirst() {
 	btn1.classList.add('click')
 	btn2.classList.remove('click')
 	btn3.classList.remove('click')
 	btn4.classList.remove('click')
 	btn5.classList.remove('click')
 }
-function btn2() {
+function btnSecond() {
+	btn1.classList.remove('click')
 	btn2.classList.add('click')
-	btn1.classList.remove('click')
 	btn3.classList.remove('click')
 	btn4.classList.remove('click')
 	btn5.classList.remove('click')
 }
-function btn3() {
+function btnThird() {
+	btn1.classList.remove('click')
+	btn2.classList.remove('click')
 	btn3.classList.add('click')
-	btn2.classList.remove('click')
-	btn1.classList.remove('click')
 	btn4.classList.remove('click')
 	btn5.classList.remove('click')
 }
-function btn4() {
+function btnFourth() {
+	btn1.classList.remove('click')
+	btn2.classList.remove('click')
+	btn3.classList.remove('click')
 	btn4.classList.add('click')
-	btn2.classList.remove('click')
-	btn3.classList.remove('click')
-	btn1.classList.remove('click')
 	btn5.classList.remove('click')
 }
-function btn5() {
-	btn5.classList.add('click')
+function btnFifth() {
+	btn1.classList.remove('click')
 	btn2.classList.remove('click')
 	btn3.classList.remove('click')
 	btn4.classList.remove('click')
-	btn1.classList.remove('click')
+	btn5.classList.add('click')
+}
+
+function rateFirst(){
+	document.getElementById('number').textContent="1"
+}
+function rateSecond(){
+	document.getElementById('number').textContent="2"
+}
+function rateThird(){
+	document.getElementById('number').textContent="3"
+}
+function rateFourth(){
+	document.getElementById('number').textContent="4"
+}
+function rateFifth(){
+	document.getElementById('number').textContent="5"
 }
